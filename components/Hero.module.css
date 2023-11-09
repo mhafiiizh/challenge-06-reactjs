@@ -1,0 +1,89 @@
+#hero {
+  background-color: #f1f3ff;
+  height: fit-content;
+  width: 100%;
+  margin-top: 80px;
+}
+
+#hero .heroRightSide {
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+}
+
+#hero .heroRightSide img {
+  width: 600px;
+  height: 347px;
+}
+
+#hero .heroLeftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#hero .heroLeftSide h2 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.descText {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+  margin-bottom: 16px;
+}
+
+.rentBtn a {
+  text-decoration: none;
+  background-color: #5cb85f;
+  padding: 8px 12px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.rentBtn a:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+  #hero {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    height: auto; /* Let the height adjust based on content */
+  }
+
+  #hero .heroRightSide {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+  }
+
+  #hero .heroRightSide img {
+    width: 100%;
+  }
+
+  #hero .container {
+    padding-right: 0 !important;
+  }
+
+  .offcanvas,
+  .offcanvas.offcanvasEnd {
+    width: 180px !important;
+  }
+
+  .offcanvasBrand {
+    font-size: 20px;
+  }
+
+  .offcanvasBody {
+    width: 75%;
+  }
+}

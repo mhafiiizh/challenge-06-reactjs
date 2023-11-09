@@ -1,0 +1,15 @@
+.cars {
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .cars {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .cars {
+    width: 100%;
+  }
+}

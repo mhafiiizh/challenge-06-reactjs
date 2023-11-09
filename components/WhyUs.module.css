@@ -1,0 +1,84 @@
+#whyUs {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#whyUs .container {
+  width: fit-content;
+}
+
+.wuText {
+  text-align: left;
+}
+
+.h3Title {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.descText {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+#whyUs .wuContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  width: fit-content;
+  margin-top: 40px;
+}
+
+#whyUs .wuContainer .wuCard {
+  display: flex;
+  padding: 16px;
+  width: 268px;
+  height: 200px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+}
+
+#whyUs .wuContainer .wuCard .descTitle {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+#whyUs .wuContainer .wuCard .wuDesc {
+  width: fit-content;
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  #whyUs {
+    width: 100%;
+    align-items: center;
+  }
+
+  #whyUs .wuContainer {
+    flex-direction: column;
+  }
+
+  #whyUs .wuContainer .wuCard p {
+    overflow-y: hidden;
+  }
+}

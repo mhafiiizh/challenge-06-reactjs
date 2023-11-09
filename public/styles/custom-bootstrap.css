@@ -1,0 +1,74 @@
+.carousel {
+  height: 270px;
+  width: 832px;
+  border-radius: 8px;
+  background: #f1f3ff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner {
+  width: 530px !important;
+}
+
+.carousel-item.active {
+  width: fit-content;
+  display: flex !important;
+  align-items: center;
+}
+
+.accordion,
+.accordion-flush {
+  width: 668px;
+  height: 56px;
+}
+
+button.accordion-button {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.accordion-text {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel {
+    width: 90%;
+    height: 392px;
+  }
+
+  .carousel-item.active {
+    padding-top: 20px;
+    height: fit-content;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .button-prev-next .carousel-control-prev,
+  .button-prev-next .carousel-control-next {
+    bottom: 230px;
+  }
+
+  .accordion,
+  .accordion-flush {
+    width: 90%;
+    height: 525px;
+  }
+
+  button.accordion-button {
+    width: 100%;
+    overflow-y: hidden;
+  }
+}

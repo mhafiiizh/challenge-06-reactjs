@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.navbar {
+  display: flex;
+  background-color: #f1f3ff;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Barriecito', sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.logo a:hover {
+  color: #000;
+}
+
+.btnMobile {
+  color: #f1f3ff;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  width: fit-content;
+  justify-content: space-between;
+}
+
+a.navLink {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a.navLink:hover {
+  color: #000;
+}
+
+.navbarRegisterBtn a,
+.rent-btn a,
+.main-btn,
+a.main-btn {
+  text-decoration: none;
+  background-color: #5cb85f;
+  padding: 8px 12px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.navbarRegisterBtn a:hover,
+.rent-btn a:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+  .logo a {
+    font-size: 14px;
+  }
+
+  .offcanvas,
+  .offcanvas.offcanvasEnd {
+    width: 180px !important;
+  }
+
+  .offcanvasBrand {
+    font-size: 20px;
+  }
+
+  .offcanvasBody {
+    width: 75%;
+  }
+}

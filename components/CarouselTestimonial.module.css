@@ -1,0 +1,59 @@
+.custom-carousel {
+  height: 270px;
+  width: 832px;
+  border-radius: 8px;
+  background: #f1f3ff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  width: 530px !important;
+  display: flex !important;
+  align-items: center;
+}
+
+.testiContainer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 530px;
+  color: #000;
+}
+
+.imgTesti {
+  width: 80px;
+  border-radius: 80px;
+}
+
+.testiDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.carousel-caption .testiText {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.carousel-caption .testiProfile {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.carousel-caption {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 530px;
+}

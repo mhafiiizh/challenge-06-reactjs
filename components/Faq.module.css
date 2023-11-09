@@ -1,0 +1,45 @@
+#faq {
+  margin-top: 100px;
+}
+
+.faqContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 344px;
+}
+
+#faq .faqText {
+  width: 370px;
+}
+
+.faqText .h3Title {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.faqText .descText {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 576px) {
+  .faqContainer {
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .faqText {
+    justify-content: center;
+    text-align: center;
+  }
+}

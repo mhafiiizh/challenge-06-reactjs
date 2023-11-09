@@ -1,0 +1,42 @@
+.search {
+  margin-top: -50px;
+}
+
+.searchCard {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.searchTime .formSelect {
+  background-image: url('/images/fi_clock.png');
+  background-size: 20px auto;
+}
+
+.formSelect {
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.formSelect:hover {
+  border: 1px solid #5cb85f;
+}
+
+.optRent:hover,
+.optRent:checked {
+  background: #c9e7ca;
+  color: #5cb85f;
+}
+
+.mainBtn,
+a.mainBtn {
+  text-decoration: none;
+  background-color: #5cb85f;
+  padding: 8px 12px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}

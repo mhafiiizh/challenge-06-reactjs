@@ -1,0 +1,66 @@
+#testimonial {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#testimonial .h3Title {
+  text-align: center;
+}
+
+#testimonial .descText {
+  text-align: center;
+}
+
+.imgTesti {
+  width: 80px;
+  border-radius: 80px;
+}
+
+.testiDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.testiContainer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 530px;
+}
+
+.testiDesc .testiText {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.testiDesc .testiProfile {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .testiContainer {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .testiDesc {
+    width: 80%;
+    height: fit-content;
+  }
+
+  .testiDesc .starTestimonial {
+    margin: auto;
+  }
+}

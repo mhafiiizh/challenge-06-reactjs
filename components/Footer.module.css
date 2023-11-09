@@ -1,0 +1,75 @@
+#footer {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 86px;
+  margin-bottom: 100px;
+}
+
+.footerPart {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footerPart a.footerNav {
+  text-decoration: none;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footerPart p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.socmedLogo {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.socmedLogo a:hover svg circle {
+  fill: white;
+}
+
+.socmedLogo a:hover svg path {
+  stroke: #0d28a6;
+}
+
+.footerLogo {
+  width: fit-content;
+}
+
+.footerLogo a {
+  font-family: 'Barriecito', sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 576px) {
+  #footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 16px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    gap: 16px;
+  }
+
+  .footerLogo a {
+    font-size: 32px;
+  }
+}
